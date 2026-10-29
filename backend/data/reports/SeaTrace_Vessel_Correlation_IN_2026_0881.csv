@@ -1,0 +1,9 @@
+Incident ID,IN-2026-0881
+Title,Mumbai High Offshore Tanker Sheen
+Region,Arabian Sea (West Coast)
+Coordinates,"19.3421, 71.8542"
+
+MMSI,Vessel Name,Flag,IMO,Vessel Type,Speed (knots),Course (deg),Dist to Origin (km),Time Offset (hours),Draught Delta (m),Compatibility Score (%),Risk Level
+419001842,MT NEELKANTH GLORY,India,9482190,Crude Oil Tanker,12.8,242.0,1.8,0.5,-1.4,94.6,CRITICAL_LEAD
+352002781,PACIFIC TRADER V,Panama,9318492,Chemical/Product Tanker,14.2,250.0,5.6,-1.8,-0.2,72.4,ELEVATED
+636019441,EVER PROSPER,Liberia,9708142,Container Ship,18.5,238.0,14.2,-3.5,0.0,38.5,LOW_COMPATIBILITY

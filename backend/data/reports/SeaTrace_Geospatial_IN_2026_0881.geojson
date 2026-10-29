@@ -1,0 +1,169 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.8542,
+          19.3421
+        ]
+      },
+      "properties": {
+        "feature_type": "INCIDENT_CENTROID",
+        "incident_id": "IN-2026-0881",
+        "title": "Mumbai High Offshore Tanker Sheen",
+        "severity": "CRITICAL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.83,
+              19.32
+            ],
+            [
+              71.88,
+              19.34
+            ],
+            [
+              71.87,
+              19.37
+            ],
+            [
+              71.81,
+              19.35
+            ],
+            [
+              71.83,
+              19.32
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "OBSERVED_SLICK_POLYGON",
+        "area_km2": 14.85,
+        "sensor": "C-SAR (VV Polarization)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.702,
+          19.184
+        ]
+      },
+      "properties": {
+        "feature_type": "RECONSTRUCTED_RELEASE_ORIGIN",
+        "uncertainty_km": 6.4,
+        "time_window_hours": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            71.6,
+            19.1
+          ],
+          [
+            71.66,
+            19.15
+          ],
+          [
+            71.71,
+            19.19
+          ],
+          [
+            71.77,
+            19.24
+          ],
+          [
+            71.84,
+            19.3
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "AIS_VESSEL_TRACK",
+        "mmsi": "419001842",
+        "vessel_name": "MT NEELKANTH GLORY",
+        "score": 94.6,
+        "risk_level": "CRITICAL_LEAD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            71.55,
+            19.05
+          ],
+          [
+            71.64,
+            19.12
+          ],
+          [
+            71.75,
+            19.21
+          ],
+          [
+            71.85,
+            19.29
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "AIS_VESSEL_TRACK",
+        "mmsi": "352002781",
+        "vessel_name": "PACIFIC TRADER V",
+        "score": 72.4,
+        "risk_level": "ELEVATED"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            71.4,
+            18.95
+          ],
+          [
+            71.58,
+            19.08
+          ],
+          [
+            71.8,
+            19.22
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "AIS_VESSEL_TRACK",
+        "mmsi": "636019441",
+        "vessel_name": "EVER PROSPER",
+        "score": 38.5,
+        "risk_level": "LOW_COMPATIBILITY"
+      }
+    }
+  ],
+  "metadata": {
+    "generated_by": "SeaTrace AI Geospatial Engine",
+    "incident_id": "IN-2026-0881",
+    "timestamp": "2026-10-23T12:16:52.127581"
+  }
+}
